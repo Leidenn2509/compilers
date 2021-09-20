@@ -200,7 +200,7 @@ class IntegerCmd inherits StackCommand {
    };
 
    run(): Object {
-      value   
+      sm.push(self)   
    };
 
    toString(): String {
